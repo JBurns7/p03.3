@@ -26,6 +26,3 @@ def run_tests():
 
 def multiply(nums, n):
 
-
-
-
