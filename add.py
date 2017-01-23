@@ -24,3 +24,8 @@ def run_tests():
 
 def add(nums):
 
+    total = 0
+
+    for n in nums:
+        total = total + n
+    print(total)

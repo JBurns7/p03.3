@@ -30,3 +30,13 @@ def run_tests():
 
 def add_and_sub(nums):
 
+    total = 0
+
+    for i in range(len(nums)):
+        if i % 2 == 0:
+            total = total + nums[i]
+        else:
+            total = total - nums[i]
+    print(total)
+            
+

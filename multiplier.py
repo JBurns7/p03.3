@@ -26,3 +26,12 @@ def run_tests():
 
 def multiply(nums, n):
 
+    
+
+    for i in range(len(nums)):
+        nums[i] = nums[i] * n
+    print(nums)
+        
+        
+    
+

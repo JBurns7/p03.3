@@ -26,3 +26,19 @@ def run_tests():
 
 def cons(nums):
 
+    match = 0
+
+    
+
+    for i in range(len(nums) -1):
+        if nums[i] == nums[i+1]:
+            match = match + 1
+
+    if match > 0:
+        print("Match")
+
+    else:
+        print("No match")
+            
+
+

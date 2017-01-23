@@ -26,3 +26,12 @@ def run_tests():
 
 def greater(nums, n):
 
+    count = 0
+
+    for i in nums:
+        if i > n:
+            count = count + 1
+
+    print(count)
+            
+
